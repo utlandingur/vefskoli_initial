@@ -1,2 +1,4 @@
 # vefskoli_initial
-project for the introduction to the course
+Project for the introduction to the course.
+
+We are redesigning a simple landing page.
