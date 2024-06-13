@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -17,4 +23,44 @@ nav {
 
 nav li {
   list-style-type: none;
+  padding: 0 8;
+}
+
+.logo {
+  font-size: 2.5rem;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+.testimoniols {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 200;
+  background-color: #f0f0f0;
+  padding-left: 20;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200;
+  background-color: #f0f0f0;
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image img {
+  width: 80;
+  height: 80;
+  border-radius: 100%;
 }
