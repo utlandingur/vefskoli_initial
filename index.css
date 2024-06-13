@@ -6,3 +6,15 @@ nav {
   background-color: #0fa958;
   color: white;
 }
+
+nav ol {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  list-style-type: none;
+}
